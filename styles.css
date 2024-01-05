@@ -15,27 +15,30 @@ header {
 
 #parallax {
     position: relative;
-    background-image: url('https://via.placeholder.com/1200x400'); /* Replace with your parallax background image URL */
+    background-image: url('https://via.placeholder.com/1200x600'); /* Replace with your parallax background image URL */
     background-size: cover;
     background-position: center;
     color: #fff;
     text-align: center;
     padding: 100px 0;
     margin: 0;
+    overflow: hidden; /* Ensure no scrollbars appear due to potential overflow */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parallax-content {
+    background-color: rgba(255, 255, 255, 0.8); /* Background color with alpha for transparency */
+    padding: 20px; /* Padding for better visibility */
+    border-radius: 10px;
+    box-shadow: 12px 12px 2px 2px rgba(0, 0, 0, 0.5); /* Box shadow */
 }
 
 #rotateMe {
     perspective: 1000px; /* Set the perspective for 3D effect */
 }
 
-.parallax-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    /* Add initial rotation to make it more visible */
-    transform: rotateX(10deg) rotateY(5deg);
-}
 
 #parallax h2 {
     font-size: 36px;
