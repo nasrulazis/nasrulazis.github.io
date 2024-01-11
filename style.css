@@ -11,15 +11,13 @@
 }
 .rectangle-1 {
   background: radial-gradient(
-    closest-side,
-    rgba(53, 53, 53, 1) 28.49999964237213%,
-    rgba(53, 53, 53, 0.87) 100%
+    circle at center bottom,
+    rgba(16, 16, 16, 1) 0%,
+    rgba(53, 53, 53, 0.97) 100%
   );
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  left: 0px;
-  top: 0px;
+  width: 1920px;
+  height: 1080px;
+  position: relative;
 }
 .ellipse-1 {
   width: 533px;
@@ -171,4 +169,59 @@
   position: absolute;
   left: 177px;
   top: 608px;
+}
+
+@media screen and (max-width: 768px) {
+  .ellipse-1 {
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .hello-i-m {
+    font-size: 24px;
+  }
+
+  .expertise {
+    font-size: 18px;
+  }
+
+  .based-in-jakarta-indonesia-i-m-a-developer-and-software-test-engineer {
+    font-size: 14px;
+    width: auto;
+    height: auto;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .software-test-engineer {
+    font-size: 18px;
+  }
+
+  .nasrul-azis {
+    font-size: 36px;
+  }
+
+  .rectangle-2 {
+    width: 100%;
+    left: 0;
+  }
+
+  .download-cv {
+    font-size: 18px;
+    left: 20px;
+    top: 53px;
+  }
+
+  .rectangle-3 {
+    width: 100%;
+    left: 20px;
+    top: 592px;
+  }
+
+  .contact-me2 {
+    font-size: 18px;
+    left: 70px;
+    top: 608px;
+  }
 }
