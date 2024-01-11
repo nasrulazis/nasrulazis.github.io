@@ -1,0 +1,174 @@
+.desktop-1,
+.desktop-1 * {
+  box-sizing: border-box;
+}
+.desktop-1 {
+  background: #ffffff;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-1 {
+  background: radial-gradient(
+    closest-side,
+    rgba(53, 53, 53, 1) 28.49999964237213%,
+    rgba(53, 53, 53, 0.87) 100%
+  );
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.ellipse-1 {
+  width: 533px;
+  height: 266px;
+  position: absolute;
+  left: 692px;
+  top: 814px;
+  overflow: visible;
+}
+.contact-me {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 1067px;
+  top: 53px;
+}
+.portofolio {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 1259px;
+  top: 53px;
+}
+.blog {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 1445px;
+  top: 53px;
+}
+.nasrulazis {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 123px;
+  top: 53px;
+}
+.hello-i-m {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  position: absolute;
+  left: 123px;
+  top: 371px;
+}
+.expertise {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  position: absolute;
+  left: 1323px;
+  top: 377px;
+}
+.based-in-jakarta-indonesia-i-m-a-developer-and-software-test-engineer {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  position: absolute;
+  left: 1323px;
+  top: 427px;
+  width: 466px;
+  height: 126px;
+}
+.software-test-engineer {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  position: absolute;
+  left: 123px;
+  top: 540px;
+}
+.nasrul-azis {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 96px;
+  font-weight: 700;
+  position: absolute;
+  left: 123px;
+  top: 427px;
+}
+._1655189587768-1 {
+  border-radius: 11px;
+  width: 583px;
+  height: 709px;
+  position: absolute;
+  left: 668px;
+  top: 371px;
+  object-fit: cover;
+}
+.rectangle-2 {
+  background: #c41e1e;
+  border-radius: 20px;
+  width: 232px;
+  height: 61px;
+  position: absolute;
+  left: 1579px;
+  top: 37px;
+}
+.download-cv {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 1623px;
+  top: 53px;
+}
+.download-cv2 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-3 {
+  background: #c41e1e;
+  border-radius: 20px;
+  width: 232px;
+  height: 61px;
+  position: absolute;
+  left: 123px;
+  top: 592px;
+}
+.contact-me2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 177px;
+  top: 608px;
+}
